@@ -2,11 +2,14 @@ import React from 'react';
 
 function Drop() {
   return (
-    <div className='fixed inset-0 bg-black bg-opacity-90 flex flex-col justify-center items-center text-white z-50'>
-                    <div className='text-4xl lg:text-6xl mb-8 cursor-pointer' onClick={() => setToggle(false)}>About</div>
-                    <div className='text-4xl lg:text-6xl mb-8 cursor-pointer' onClick={() => setToggle(false)}>Contact</div>
-                    <div className='text-4xl lg:text-6xl cursor-pointer' onClick={() => setToggle(false)}>Testimonials</div>
-                </div>
+    <div className=' bg-black flex justify-center'>
+      <div className='flex flex-col justify-center items-center text-6xl gap-4'>
+        <h1>About</h1>
+        <h1>Testimonials</h1>
+        <h1>Services</h1>
+        <h1>Contact</h1>
+      </div>
+    </div>
   );
 }
 
