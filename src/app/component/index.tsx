@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import Image from 'next/image'
 
 function Index() {
     const [toggle, setToggle] = useState(false)
@@ -72,14 +73,14 @@ function Index() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}>
                         <h1 className='text-4xl lg:text-7xl mt-14'>Where
-                            <span className='inline-block'><img src="z1.webp" alt="" className='w-13 h-12 inline px-3' /></span> Imagination
+                            <span className='inline-block'><Image src="/z1.webp" width={100} height={100} alt="" className='w-13 h-12 inline px-3' /></span> Imagination
                         </h1>
                         <h1 className='text-4xl lg:text-7xl mt-3'>
-                            <span className='inline-block'><img src="z2.webp" alt="" className='w-13 h-12 inline px-3' /></span> Meet Strategy
+                            <span className='inline-block'><Image src="/z2.webp" width={100} height={100} alt="" className='w-13 h-12 inline px-3' /></span> Meet Strategy
                         </h1>
                         <div className='flex justify-center mt-10 lg:mt-19'>
                             <button className='border flex justify-center border-slate-300 px-4 py-2 mt-10 hover:bg-white hover:bg-opacity-15 rounded-2xl'>
-                                <a href="#talk" >Let's Collaborate</a>
+                                <a href="#talk" >Let&apos;s Collaborate</a>
                                 <span className='ml-2'>&rarr;</span>
                             </button>
                         </div>

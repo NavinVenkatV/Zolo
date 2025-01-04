@@ -4,7 +4,7 @@ export default function Subscribe() {
     return (
         <div className='flex flex-col bg-opacity-10 backdrop-filter backdrop-blur-lg border border-white border-1 w-[1000px] p-5 lg:p-16 rounded-2xl mx-2'>
             <div className='text-white text-2xl lg:text-4xl font-light lg:flex justify-between'>
-                Don’t want to miss anything?
+                Don&apos;s want to miss anything?
                 <h3 className='text-sm lg:text-lg mt-2'>
                     Sign up for our newsletter to discover winning trends before your competition
                 </h3>

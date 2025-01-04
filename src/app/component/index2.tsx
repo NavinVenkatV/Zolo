@@ -3,7 +3,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Box from './box'
 import MarQuee from './index3'
-import Index4 from './index4'
 
 function Index2() {
     return (
@@ -14,7 +13,7 @@ function Index2() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}>
                     <div className='max-w-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-white  to-purple-800 p-4 '>
-                        Providing professional web development services to design, build, and deliver dynamic, user-friendly websites tailored to your business needs. Let’s turn your ideas into impactful digital experiences</div>
+                        Providing professional web development services to design, build, and deliver dynamic, user-friendly websites tailored to your business needs. Let&apos;s turn your ideas into impactful digital experiences</div>
                 </motion.div>
             </div>
             <div className='text-slate-300 text-lg  h-full pt-3'>

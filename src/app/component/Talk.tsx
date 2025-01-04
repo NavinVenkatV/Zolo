@@ -4,7 +4,7 @@ function Talk() {
     return (
         <a id='talk' className='min-h-[500px] text-white'>
             <div className='p-3 lg:p-32 lg:grid lg:grid-cols-[2fr_2fr]'>
-                <div className='text-5xl lg:text-8xl font-light '>Let's Talk</div>
+                <div className='text-5xl lg:text-8xl font-light '>Let&apos;s Talk</div>
                 <div className='mt-4 lg:mt-0'>
                     <div className='flex gap-2'>
                         <input type="text" placeholder='Name' required className='p-4 bg-slate-900 w-full focus:outline-none' />
