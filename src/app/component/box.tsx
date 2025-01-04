@@ -1,14 +1,18 @@
 import React from 'react'
-
-function Box() {
+interface types{
+    heading : string,
+    number  : string,
+    description : string
+}
+function Box({heading, number, description} :types ) {
     return (
         <div className='border-slate-300 rounded-2xl border-2 p-7 h-[370px] w-[450px] lg:mt-0 mt-4 bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg'>
             <div className='flex flex-col'>
-                <p className='mb-12 font-semibold text-xl'>Project Completed</p>
+                <p className='mb-12 font-semibold text-xl'>{heading}</p>
                 <div className='flex flex-col justify-end'>
-                    <p className='text-8xl font-light p-5'>+75</p>
+                    <p className='text-8xl font-light p-5'>{number}</p>
                     <hr />
-                    <h3 className='pt-3'>Successful liftoffs into the digital cosmos, each leaving a trail of satisfied clients</h3>
+                    <h3 className='pt-3'>{description}</h3>
                 </div>
             </div>
         </div>
