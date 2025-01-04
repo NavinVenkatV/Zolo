@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 function Footer() {
     return (
@@ -35,10 +36,10 @@ function Footer() {
                         <p className='cursor-pointer hover:text-black invisible lg:visible'>Style Guide</p>
                     </div>
                     <div className='flex gap-2 mt-4 lg:mt-0'>
-                        <img src="1.svg" alt="" />
-                        <img src="li1.svg" alt="" />
-                        <img src="y1.svg" alt="" />
-                        <img src="i1.svg" alt="" />
+                        <Image src="1.svg" width={30} height={30} alt="" />
+                        <Image src="li1.svg" width={30} height={30} alt="" />
+                        <Image src="y1.svg" width={30} height={30}   alt="" />
+                        <Image src="i1.svg" width={30} height={30}  alt="" />
                     </div>
                 </div>
             </div>
