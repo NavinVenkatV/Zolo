@@ -16,7 +16,7 @@ function Index2() {
                         Providing professional web development services to design, build, and deliver dynamic, user-friendly websites tailored to your business needs. Let&apos;s turn your ideas into impactful digital experiences</div>
                 </motion.div>
             </div>
-            <div className='text-slate-300 text-lg  h-full pt-3'>
+            <div className='text-slate-300 text-lg  h-full p-3'>
                 <div className='flex flex-col justify-center items-center mt-10'>
                     <div className='text-center items-center text-gray-500'>O U R <span className='px-3'></span> A C H I E V E M E N T S</div>
                     <div className='max-w-[300px] lg:max-w-[370px] bg-white h-0.5 w-full mt-2'></div>

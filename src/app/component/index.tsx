@@ -73,7 +73,7 @@ function Index() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}>
                         <h1 className='text-4xl lg:text-7xl mt-14'>Where
-                            <span className='inline-block'><Image src="/z1.webp" width={100} height={100} alt="" className='w-13 h-12 inline px-3' /></span> Imagination
+                            <span className='inline-block'><Image src="/Z1.webp" width={100} height={100} alt="" className='w-13 h-12 inline px-3' /></span> Imagination
                         </h1>
                         <h1 className='text-4xl lg:text-7xl mt-3'>
                             <span className='inline-block'><Image src="/z2.webp" width={100} height={100} alt="" className='w-13 h-12 inline px-3' /></span> Meet Strategy
