@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import Image from 'next/image';
 
 function MarQuee() {
     const marQueeText = ['/l1.png', '/l2.png', '/l3.png'];
@@ -16,7 +17,7 @@ function MarQuee() {
                 className='flex'
             >
                 {repeatedText.map((image, index) => (
-                    <img
+                    <Image
                         src={image}
                         key={index}
                         alt={`icon ${index + 1}`}
