@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Footer() {
     return (
-        <div className=' text-white bg-gradient-to-r py-5 from-blue-900 via-black to-purple-800 overflow-hidden'>
+        <div className=' text-white bg-gradient-to-r pt-20 from-blue-900 via-black to-purple-800 overflow-hidden'>
             <div className='m-3 mt-10 lg:mx-24 lg:mt-24 '>
                 <div className='lg:flex gap-10 lg:pl-7'>
                     <div>

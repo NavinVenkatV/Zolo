@@ -7,7 +7,7 @@ import Talk from "./component/Talk";
 
 export default function Home() {
   return (
-    <div className="bg-black h-full w-full overflow-hidden px-auto smooth-scroll">
+    <div className="bg-black h-full w-full overflow-hidden px-auto">
       <div className="p-4 lg:p-6 bg-gradient-to-r from-purple-800 via-black to-blue-900 overflow-hidden">
         <Index />
       </div>
@@ -18,10 +18,10 @@ export default function Home() {
         <HeroParallaxDemo />
         <Index4 />
       </div>
-      <div className="">
+      <div className="py-20">
         <Talk />
       </div>
-      <div>
+      <div className="">
         <Footer />
       </div>
     </div>
