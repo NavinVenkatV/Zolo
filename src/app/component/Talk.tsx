@@ -8,11 +8,11 @@ function Talk() {
                 <div className='mt-4 lg:mt-0'>
                     <div className='flex gap-2'>
                         <input type="text" placeholder='Name' required className='p-4 bg-slate-900 w-full focus:outline-none' />
-                        <input type="text" placeholder='Name' required className='p-4 bg-slate-900 w-full focus:outline-none' />
+                        <input type="text" placeholder='Company' required className='p-4 bg-slate-900 w-full focus:outline-none' />
                     </div>
                     <div className='flex gap-2 mt-3'>
-                        <input type="text" placeholder='Name' required className='p-4 bg-slate-900 w-full focus:outline-none' />
-                        <input type="text" placeholder='Name' required className='p-4 bg-slate-900 w-full focus:outline-none' />
+                        <input type="text" placeholder='Email' required className='p-4 bg-slate-900 w-full focus:outline-none' />
+                        <input type="text" placeholder='Phone' required className='p-4 bg-slate-900 w-full focus:outline-none' />
                     </div>
                     <div>
                         <textarea name="" id="" placeholder='Message' required className='mt-3 w-full focus:outline-none h-[200px] bg-slate-900 p-4'></textarea>

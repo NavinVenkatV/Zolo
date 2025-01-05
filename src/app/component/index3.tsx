@@ -6,7 +6,8 @@ function MarQuee() {
     const marQueeText = ['/l1.png', '/l2.png', '/l3.png'];
 
     // Repeat the array content dynamically
-    const repeatedText = [...Array(4)].flatMap(() => marQueeText); //need to learn the syntax
+    // Repeat the array content 4 times
+    const repeatedText = Array(4).fill(marQueeText).flat();
 
     return (
         <div className='overflow-hidden mt-20 pb-20'>
@@ -20,6 +21,8 @@ function MarQuee() {
                     <Image
                         src={image}
                         key={index}
+                        width={250}
+                        height={40}
                         alt={`icon ${index + 1}`}
                         className='flex px-10'
                         style={{ width: '250px', height: '40px' }}
