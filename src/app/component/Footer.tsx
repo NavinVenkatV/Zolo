@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Footer() {
     return (
-        <div className=' text-white bg-gradient-to-r from-blue-900 via-black to-purple-800 overflow-hidden'>
+        <div className=' text-white bg-gradient-to-r py-5 from-blue-900 via-black to-purple-800 overflow-hidden'>
             <div className='m-3 mt-10 lg:mx-24 lg:mt-24 '>
                 <div className='lg:flex gap-10 lg:pl-7'>
                     <div>
@@ -25,7 +25,7 @@ function Footer() {
                     initial={{ opacity: 0, x: 60 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}>
-                    <h1 className="m-0 p-0 leading-none text-[20vw] font-light bg-clip-text text-transparent bg-gradient-to-b from-purple-800 via-blue-900  to-black overflow-hidden">NOAH</h1>
+                    <h1 className="mt-10 p-0 leading-none text-[20vw] font-light bg-clip-text text-transparent bg-gradient-to-b from-purple-800 via-blue-900  to-black overflow-hidden">NOAH</h1>
                 </motion.div>
                 <hr />
                 <div className='my-3 lg:flex justify-between w-full'>
