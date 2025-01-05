@@ -2,7 +2,7 @@ import React from 'react'
 
 function Talk() {
     return (
-        <a id='talk' className='min-h-[500px] text-white my-5'>
+        <a id='talk' className='min-h-[500px] text-white my-20'>
             <div className='p-3 lg:p-32 lg:grid lg:grid-cols-[2fr_2fr]'>
                 <div className='text-5xl lg:text-8xl font-light '>Let&apos;s Talk</div>
                 <div className='mt-4 lg:mt-0'>
